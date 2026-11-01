@@ -1,0 +1,11 @@
+KODO iOS - projet (iOS 17+)
+
+1. Remplace Sources/Assets.xcassets/AppIcon.appiconset/icon.png
+   par le logo Kodo en 1024x1024, carre, sans transparence.
+   (logo : https://ia.zyranex.fr/logo.png)
+2. GitHub : nouveau repo prive -> Add file -> Upload files :
+   project.yml + dossier Sources.
+3. Add file -> Create new file -> nom ".github/workflows/build.yml"
+   -> colle le contenu du fichier .github/workflows/build.yml -> Commit.
+4. Onglet Actions -> Build iOS -> attendre vert -> Artifacts -> Kodo-ipa.
+5. Installer Kodo.ipa avec SideStore (MAJ auto quotidienne).
